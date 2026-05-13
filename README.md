@@ -1,76 +1,157 @@
 # RetroVault
 
-Página de aterrizaje de alta fidelidad para **RetroVault**, una tienda exclusiva de consolas retro restauradas y teclados mecánicos a medida. Construida como un único archivo HTML autocontenido, sin dependencias externas más allá de Google Fonts.
+**RetroVault** es una página web estática para promocionar consolas retro restauradas y teclados mecánicos personalizados. El sitio presenta una experiencia visual de catálogo premium, con estética retro-industrial, productos de edición limitada y secciones informativas sobre restauración, mejoras modernas, testimonios y contacto.
+
+---
+
+## Descripción general del sitio
+
+### Propósito
+
+El propósito del sitio es presentar a RetroVault como una marca especializada en hardware clásico restaurado y periféricos personalizados. La página funciona como un catálogo digital donde el usuario puede conocer los productos disponibles, revisar sus beneficios, entender el proceso de restauración y contactar a la marca para consultas o suscripción a novedades.
+
+### Público objetivo
+
+El sitio está dirigido a personas interesadas en videojuegos clásicos, coleccionismo, estaciones de trabajo personalizadas, teclados mecánicos y estética retro funcional. Su público principal incluye coleccionistas, profesionales de tecnología, creativos digitales y usuarios que buscan productos únicos, restaurados y con mejor calidad que las opciones comunes de segunda mano.
+
+### Alcance
+
+Este proyecto corresponde a una página web estática desarrollada en un solo archivo `index.html`. Incluye estructura HTML, estilos CSS, elementos SVG y una pequeña interacción con JavaScript para el desplazamiento del catálogo. No incluye backend, base de datos, pasarela de pagos, autenticación de usuarios ni carrito funcional conectado a un sistema real.
+
+---
+
+## URL del sitio desplegado
+
+```text
+https://josiasperjac.github.io/RetroVault/
+```
+
+---
+
+## Captura de pantalla del sitio desplegado
+
+![Captura de pantalla de RetroVault](./assets/screenshot-retrovault.png)
 
 ---
 
 ## Características principales
 
 ### Diseño y estética
-- Paleta oscura industrial: carbón profundo `#0c0b10`, blanco roto `#e8e3d5` y acento neón púrpura `#b07cff`
-- Tipografía en tres capas: `Press Start 2P` para títulos (estilo pixel-art), `Space Grotesk` para cuerpo y `JetBrains Mono` para metadata y etiquetas
-- Efectos CRT con líneas de escaneo, radial glows y grid de puntos — todo en CSS puro, sin imágenes externas
 
-### Secciones de la página
+- Paleta oscura industrial con fondo carbón, blanco retro y acento púrpura neón.
+- Tipografía con estilo retro y tecnológico usando Google Fonts.
+- Diseño visual inspirado en catálogos de hardware clásico y productos de edición limitada.
+- Efectos visuales como líneas de escaneo, fondos con grid, brillos radiales y detalles tipo CRT.
+- Ilustración SVG principal de una Game Boy Color translúcida junto a un teclado mecánico RV-65.
+
+### Navegación principal
+
+El sitio incluye una barra superior fija con navegación hacia las secciones principales:
+
+- Consolas
+- Teclados
+- Restauración
+- Diario
+- Contacto
+
+También incluye selector visual de idioma `ES / EN` y un contador de carrito mostrado como elemento visual.
+
+### Secciones del sitio
 
 | # | Sección | Descripción |
 |---|---------|-------------|
-| — | **Header sticky** | Logo, navegación centrada, selector de idioma y carrito con contador |
-| — | **Marquee** | Banda animada con info de edición, envíos y garantía |
-| 01 | **Hero** | Titular en pixel-art, deck descriptivo, CTAs y ilustración SVG del GameBoy Color translúcido + teclado RV-65 |
-| 02 | **Beneficios** | Grid de 3 columnas: Restauración Experta · Mejoras Modernas · Estética Única, cada uno con micro-checklist de specs |
-| 03 | **Catálogo** | Rail horizontal con 8 tarjetas de producto (consolas + teclados) con navegación por botones |
-| 04 | **Proceso** | Strip de 4 pasos del taller: Diagnóstico → Recap → Mejoras → Firma |
-| 05 | **Testimonios** | Rail horizontal con 5 reseñas verificadas de coleccionistas y profesionales |
-| — | **Footer** | Newsletter, formulario de contacto, links de tienda/taller, redes sociales y aviso legal |
-
-### Ilustración SVG del Hero
-La pieza central del hero es una ilustración vectorial compuesta enteramente en SVG inline:
-- **GameBoy Color translúcido** con carcasa semitransparente púrpura, pantalla IPS animada (píxeles parpadeantes), D-pad, botones A/B, altavoz y puerto USB-C
-- **Teclado mecánico RV-65** con dos filas de teclas visibles, keycaps en off-white y acento púrpura, placa base oscura
-- Filtros de sombra, glow radial y rejilla de fondo integrados con `<defs>` y gradientes
-
-### Interactividad
-- Animación de marquee infinita en CSS (`@keyframes scroll`)
-- Cursor parpadeante en el titular del hero (`@keyframes blink`)
-- Pulso en el indicador de estado (`@keyframes pulse`)
-- Navegación del rail de catálogo con scroll suave via JavaScript (< 5 líneas)
-- Formulario de newsletter con feedback visual al enviar
-- Hover states en todos los elementos interactivos con transiciones CSS
-
-### Responsivo
-- Breakpoint en `980px`: hero en columna única, beneficios en una sola columna, proceso en 2 columnas, nav oculta en móvil
-- Rails de scroll horizontal con `scroll-snap-type` y scrollbar oculta para experiencia táctil nativa
+| 01 | Header | Contiene el logo de RetroVault, navegación interna, selector de idioma y carrito visual. |
+| 02 | Marquee | Banda animada con información de edición, número de piezas, envíos y garantía. |
+| 03 | Hero | Presenta el mensaje principal: “Hardware Atemporal, Reimaginado”, junto con llamadas a la acción. |
+| 04 | Restauración / Beneficios | Explica los tres principios principales: restauración experta, mejoras modernas y estética única. |
+| 05 | Catálogo | Muestra un rail horizontal con productos como consolas retro y teclados mecánicos personalizados. |
+| 06 | Proceso | Resume el flujo del taller en cuatro pasos: diagnóstico, recap, mejoras y firma. |
+| 07 | Testimonios | Presenta opiniones de coleccionistas y profesionales sobre la calidad de los productos. |
+| 08 | Footer / Contacto | Incluye newsletter, formulario de contacto, enlaces rápidos, redes sociales y aviso legal. |
 
 ---
 
-## Estructura del archivo
+## Productos representados en el catálogo
 
-```
+| Producto | Tipo | Características | Precio mostrado |
+|---|---|---|---|
+| GBC · Púrpura Atómico | Consola retro | IPS v3, USB-C, batería | $340 |
+| RV-65 · Carbón | Teclado mecánico | Topre 45g, aluminio, MX | $520 |
+| GBA SP · Perla | Consola retro | IPS v3, latón | $295 |
+| RV-Numpad · Fantasma | Teclado mecánico | MX, translúcido | $180 |
+| NES Top-Loader | Consola retro | Restauración clásica | $420 |
+| RV-TKL · Siena | Teclado mecánico | Diseño TKL personalizado | $580 |
+| Game Gear · Onyx | Consola retro | Restauración y mejoras | $385 |
+| RV-60 · Hueso | Teclado mecánico | Diseño compacto premium | $640 |
+
+---
+
+## Tecnologías utilizadas
+
+- **HTML5** para la estructura semántica del sitio.
+- **CSS3** para estilos, variables, grid, flexbox, animaciones y diseño responsivo.
+- **JavaScript vanilla** para controlar el desplazamiento horizontal del catálogo.
+- **SVG inline** para las ilustraciones de productos.
+- **Google Fonts** para las tipografías `VT323`, `Press Start 2P`, `Space Grotesk` y `JetBrains Mono`.
+
+---
+
+## Estructura del proyecto
+
+```text
 RetroVault/
-└── RetroVault.html   # Página completa — HTML + CSS + SVG + JS en un solo archivo
+├── index.html
+├── README.md
+└── assets/
+    └── screenshot-retrovault.png
 ```
 
 ---
 
-## Cómo abrir
+## Cómo abrir el proyecto localmente
 
-No requiere servidor ni proceso de build. Basta con abrir el archivo en cualquier navegador moderno:
+El proyecto no requiere instalación de dependencias ni proceso de compilación. Solo se debe abrir el archivo `index.html` en un navegador moderno.
+
+En macOS:
 
 ```bash
-open RetroVault.html
+open index.html
 ```
 
----
-
-## Tecnologías
-
-- HTML5 semántico
-- CSS3 (custom properties, grid, flexbox, animaciones, backdrop-filter)
-- SVG inline con gradientes y filtros
-- JavaScript vanilla (< 10 líneas)
-- Google Fonts: `Press Start 2P`, `VT323`, `Space Grotesk`, `JetBrains Mono`
+También se puede abrir manualmente haciendo doble clic sobre el archivo `index.html`.
 
 ---
 
-*© 2026 RetroVault · GYE, Ecuador*
+## Interactividad
+
+El sitio incluye interacciones ligeras sin librerías externas:
+
+- Animación infinita en la banda informativa superior.
+- Cursor parpadeante en el título principal.
+- Pulso visual en el indicador de lanzamiento.
+- Desplazamiento suave del catálogo mediante botones.
+- Feedback visual al enviar el formulario de contacto.
+- Estados `hover` en botones, tarjetas, enlaces y elementos interactivos.
+
+---
+
+## Diseño responsivo
+
+La página utiliza un breakpoint principal en `980px`. En pantallas pequeñas, el hero cambia a una sola columna, los beneficios se reorganizan verticalmente, el proceso pasa a dos columnas y la navegación superior se oculta para mejorar la lectura en dispositivos móviles.
+
+---
+
+## Autor
+
+Proyecto desarrollado por **Josias Pérez Jácome**.
+
+---
+
+## Estado del proyecto
+
+Proyecto académico correspondiente al **Proyecto 01**.  
+Estado actual: documentación y mantenimiento del sitio web estático.
+
+---
+
+© 2026 RetroVault · GYE

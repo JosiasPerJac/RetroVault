@@ -1,893 +1,2454 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8" />
-<title>RetroVault — Hardware Atemporal, Reimaginado</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-
-<!-- ────────────── Top band ────────────── -->
-<header class="topband">
-  <div class="topband-inner">
-    <div class="logo"><span class="dot"></span>Retro<span class="v">Vault</span></div>
-    <nav class="nav-links">
-      <a href="#consolas">Consolas</a>
-      <a href="#teclados">Teclados</a>
-      <a href="#restauracion">Restauración</a>
-      <a href="#diario">Diario</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-    <div class="top-actions">
-      <span style="color: var(--ink-faint); letter-spacing:1.5px;">ES / EN</span>
-      <span class="cart">Carrito <span class="count">0</span></span>
-    </div>
-  </div>
-</header>
-
-<!-- ────────────── Marquee ────────────── -->
-<div class="marquee">
-  <div class="marquee-track">
-    <span>Edición 014 — Mayo '26 <span class="sep">●</span></span>
-    <span>24 piezas restauradas <span class="sep">●</span></span>
-    <span>Envío sin costo a partir de $200 <span class="sep">●</span></span>
-    <span>Numeradas · Firmadas · Únicas <span class="sep">●</span></span>
-    <span>Garantía 12 meses <span class="sep">●</span></span>
-    <span>Edición 014 — Mayo '26 <span class="sep">●</span></span>
-    <span>24 piezas restauradas <span class="sep">●</span></span>
-    <span>Envío sin costo a partir de $200 <span class="sep">●</span></span>
-    <span>Numeradas · Firmadas · Únicas <span class="sep">●</span></span>
-    <span>Garantía 12 meses <span class="sep">●</span></span>
-  </div>
-</div>
-
-<!-- ────────────── Hero ────────────── -->
-<section class="hero">
-  <div class="hero-copy">
-    <div class="eyebrow"><span class="pulse"></span>Lanzamiento 04 / Mayo · Edición 014</div>
-    <h1>Hardware<br/>Atemporal,<br/><span class="accent">Reimaginado</span></h1>
-    <p class="deck">Consolas restauradas a mano y teclados mecánicos a medida. Cada pieza pasa por el taller, se documenta, se numera y se firma. Series cortas. Cuando se acaba, se acaba.</p>
-    <div class="hero-cta">
-      <a href="#catalogo" class="btn primary">Ver catálogo <span class="arrow">→</span></a>
-      <a href="#restauracion" class="btn">Bitácora del taller</a>
-    </div>
-    <div class="hero-meta">
-      <div>
-        <strong>014</strong>
-        Edición actual
+  <head>
+    <meta charset="UTF-8" />
+    <title>RetroVault — Hardware Atemporal, Reimaginado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- ────────────── Top band ────────────── -->
+    <header class="topband">
+      <div class="topband-inner">
+        <div class="logo">
+          <span class="dot"></span>Retro<span class="v">Vault</span>
+        </div>
+        <nav class="nav-links">
+          <a href="#consolas">Consolas</a>
+          <a href="#teclados">Teclados</a>
+          <a href="#restauracion">Restauración</a>
+          <a href="#diario">Diario</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="top-actions">
+          <span style="color: var(--ink-faint); letter-spacing: 1.5px"
+            >ES / EN</span
+          >
+          <span class="cart">Carrito <span class="count">0</span></span>
+        </div>
       </div>
-      <div>
-        <strong>24</strong>
-        Piezas online
-      </div>
-      <div>
-        <strong>12m</strong>
-        Garantía total
+    </header>
+
+    <!-- ────────────── Marquee ────────────── -->
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>Edición 014 — Mayo '26 <span class="sep">●</span></span>
+        <span>24 piezas restauradas <span class="sep">●</span></span>
+        <span>Envío sin costo a partir de $200 <span class="sep">●</span></span>
+        <span>Numeradas · Firmadas · Únicas <span class="sep">●</span></span>
+        <span>Garantía 12 meses <span class="sep">●</span></span>
+        <span>Edición 014 — Mayo '26 <span class="sep">●</span></span>
+        <span>24 piezas restauradas <span class="sep">●</span></span>
+        <span>Envío sin costo a partir de $200 <span class="sep">●</span></span>
+        <span>Numeradas · Firmadas · Únicas <span class="sep">●</span></span>
+        <span>Garantía 12 meses <span class="sep">●</span></span>
       </div>
     </div>
-  </div>
 
-  <div class="stage">
-    <div class="stage-tag"><span class="dot"></span>RV-014 / GBC × RV-65</div>
-    <div class="stage-coords">X:0240 Y:0180</div>
-    <div class="product-stack">
-      <!-- Composite illustration: transparent GBC + keyboard -->
-      <svg viewBox="0 0 520 420" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="kbBody" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#1a1822"/>
-            <stop offset="100%" stop-color="#0a090e"/>
-          </linearGradient>
-          <linearGradient id="kbTop" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#26222e"/>
-            <stop offset="100%" stop-color="#171522"/>
-          </linearGradient>
-          <linearGradient id="keyCap" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#f5efdd"/>
-            <stop offset="100%" stop-color="#ddd5be"/>
-          </linearGradient>
-          <linearGradient id="keyPurple" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#c89bff"/>
-            <stop offset="100%" stop-color="#7b3fe4"/>
-          </linearGradient>
-          <linearGradient id="gbcShell" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="rgba(176,124,255,0.55)"/>
-            <stop offset="60%" stop-color="rgba(123,63,228,0.35)"/>
-            <stop offset="100%" stop-color="rgba(74,31,156,0.45)"/>
-          </linearGradient>
-          <linearGradient id="gbcScreen" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#1a3a2e"/>
-            <stop offset="100%" stop-color="#0d2419"/>
-          </linearGradient>
-          <radialGradient id="screenGlow" cx="0.5" cy="0.5">
-            <stop offset="0%" stop-color="rgba(124,255,176,0.4)"/>
-            <stop offset="100%" stop-color="rgba(124,255,176,0)"/>
-          </radialGradient>
-          <filter id="shadow">
-            <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
-            <feOffset dx="0" dy="6" result="offsetblur"/>
-            <feComponentTransfer><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
-            <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-          </filter>
-        </defs>
+    <!-- ────────────── Hero ────────────── -->
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="pulse"></span>Lanzamiento 04 / Mayo · Edición 014
+        </div>
+        <h1>
+          Hardware<br />Atemporal,<br /><span class="accent">Reimaginado</span>
+        </h1>
+        <p class="deck">
+          Consolas restauradas a mano y teclados mecánicos a medida. Cada pieza
+          pasa por el taller, se documenta, se numera y se firma. Series cortas.
+          Cuando se acaba, se acaba.
+        </p>
+        <div class="hero-cta">
+          <a href="#catalogo" class="btn primary"
+            >Ver catálogo <span class="arrow">→</span></a
+          >
+          <a href="#restauracion" class="btn">Bitácora del taller</a>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <strong>014</strong>
+            Edición actual
+          </div>
+          <div>
+            <strong>24</strong>
+            Piezas online
+          </div>
+          <div>
+            <strong>12m</strong>
+            Garantía total
+          </div>
+        </div>
+      </div>
 
-        <!-- Keyboard (back) -->
-        <g transform="translate(60, 200)" filter="url(#shadow)">
-          <!-- base -->
-          <path d="M 0 50 L 380 50 L 400 80 L 400 150 L -20 150 L -20 80 Z" fill="url(#kbBody)" stroke="#2a2535" stroke-width="1"/>
-          <!-- top plate -->
-          <rect x="10" y="40" width="380" height="50" rx="3" fill="url(#kbTop)" stroke="#3a3445" stroke-width="0.5"/>
-          <!-- keys row -->
-          <g>
-            <!-- generate 15 keys -->
-            <rect x="20"  y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="46"  y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="72"  y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="98"  y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="124" y="48" width="22" height="22" rx="3" fill="url(#keyPurple)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="150" y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="176" y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="202" y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="228" y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="254" y="48" width="22" height="22" rx="3" fill="url(#keyPurple)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="280" y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="306" y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="332" y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="358" y="48" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-          </g>
-          <!-- row 2 (peeking) -->
-          <g opacity="0.95">
-            <rect x="30"  y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="56"  y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="82"  y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="108" y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="134" y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="160" y="22" width="22" height="22" rx="3" fill="url(#keyPurple)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="186" y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="212" y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="238" y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="264" y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="290" y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="316" y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-            <rect x="342" y="22" width="22" height="22" rx="3" fill="url(#keyCap)" stroke="#0c0b10" stroke-width="0.4"/>
-          </g>
-          <!-- legend strip -->
-          <rect x="30" y="100" width="340" height="3" rx="1" fill="#3a3445"/>
-          <circle cx="380" cy="68" r="3" fill="#7b3fe4" opacity="0.8"/>
-        </g>
+      <div class="stage">
+        <div class="stage-tag">
+          <span class="dot"></span>RV-014 / GBC × RV-65
+        </div>
+        <div class="stage-coords">X:0240 Y:0180</div>
+        <div class="product-stack">
+          <!-- Composite illustration: transparent GBC + keyboard -->
+          <svg viewBox="0 0 520 420" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="kbBody" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1a1822" />
+                <stop offset="100%" stop-color="#0a090e" />
+              </linearGradient>
+              <linearGradient id="kbTop" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#26222e" />
+                <stop offset="100%" stop-color="#171522" />
+              </linearGradient>
+              <linearGradient id="keyCap" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#f5efdd" />
+                <stop offset="100%" stop-color="#ddd5be" />
+              </linearGradient>
+              <linearGradient id="keyPurple" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#c89bff" />
+                <stop offset="100%" stop-color="#7b3fe4" />
+              </linearGradient>
+              <linearGradient id="gbcShell" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="rgba(176,124,255,0.55)" />
+                <stop offset="60%" stop-color="rgba(123,63,228,0.35)" />
+                <stop offset="100%" stop-color="rgba(74,31,156,0.45)" />
+              </linearGradient>
+              <linearGradient id="gbcScreen" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1a3a2e" />
+                <stop offset="100%" stop-color="#0d2419" />
+              </linearGradient>
+              <radialGradient id="screenGlow" cx="0.5" cy="0.5">
+                <stop offset="0%" stop-color="rgba(124,255,176,0.4)" />
+                <stop offset="100%" stop-color="rgba(124,255,176,0)" />
+              </radialGradient>
+              <filter id="shadow">
+                <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+                <feOffset dx="0" dy="6" result="offsetblur" />
+                <feComponentTransfer>
+                  <feFuncA type="linear" slope="0.5" />
+                </feComponentTransfer>
+                <feMerge>
+                  <feMergeNode />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
 
-        <!-- GameBoy Color (transparent) - front -->
-        <g transform="translate(290, 50) rotate(-6)" filter="url(#shadow)">
-          <!-- body -->
-          <path d="M 10 0 L 150 0 Q 165 0 165 15 L 165 240 Q 165 260 145 260 L 25 260 Q 10 260 10 245 L 10 15 Q 10 0 25 0 Z" 
-                fill="url(#gbcShell)" stroke="rgba(176,124,255,0.7)" stroke-width="1.5"/>
-          <!-- inner board outline (visible through shell) -->
-          <rect x="22" y="14" width="130" height="232" rx="6" fill="rgba(20,15,40,0.4)" stroke="rgba(176,124,255,0.3)" stroke-width="0.5"/>
-          <!-- screen bezel -->
-          <rect x="30" y="22" width="115" height="100" rx="4" fill="#0a0612" stroke="rgba(176,124,255,0.4)" stroke-width="1"/>
-          <!-- screen -->
-          <rect x="44" y="32" width="86" height="80" fill="url(#gbcScreen)"/>
-          <!-- screen pixels -->
-          <g opacity="0.85">
-            <rect x="50" y="40" width="3" height="3" fill="#9ad9b0"/>
-            <rect x="56" y="40" width="3" height="3" fill="#9ad9b0"/>
-            <rect x="62" y="40" width="3" height="3" fill="#9ad9b0"/>
-            <rect x="68" y="40" width="3" height="3" fill="#7cb898"/>
-            <rect x="74" y="40" width="3" height="3" fill="#9ad9b0"/>
-            <rect x="50" y="46" width="3" height="3" fill="#7cb898"/>
-            <rect x="56" y="46" width="3" height="3" fill="#9ad9b0"/>
-            <rect x="62" y="46" width="3" height="3" fill="#9ad9b0"/>
-            <rect x="74" y="52" width="3" height="3" fill="#9ad9b0"/>
-            <rect x="80" y="52" width="3" height="3" fill="#9ad9b0"/>
-            <rect x="86" y="52" width="3" height="3" fill="#9ad9b0"/>
-            <text x="87" y="80" font-family="VT323" font-size="11" fill="#9ad9b0" text-anchor="middle">RV-014</text>
-            <text x="87" y="92" font-family="VT323" font-size="9" fill="#7cb898" text-anchor="middle">READY</text>
-            <rect x="80" y="98" width="6" height="2" fill="#9ad9b0"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
-          </g>
-          <!-- screen reflection -->
-          <rect x="44" y="32" width="86" height="40" fill="url(#screenGlow)"/>
-          <!-- power LED -->
-          <circle cx="38" cy="76" r="2" fill="#ff7c7c" opacity="0.9"/>
-          <text x="38" y="60" font-family="VT323" font-size="7" fill="rgba(232,227,213,0.5)" text-anchor="middle">PWR</text>
-          <!-- speaker grille -->
-          <g transform="translate(110, 220) rotate(-30)">
-            <line x1="0" y1="0" x2="20" y2="0" stroke="rgba(232,227,213,0.4)" stroke-width="1"/>
-            <line x1="0" y1="4" x2="20" y2="4" stroke="rgba(232,227,213,0.4)" stroke-width="1"/>
-            <line x1="0" y1="8" x2="20" y2="8" stroke="rgba(232,227,213,0.4)" stroke-width="1"/>
-            <line x1="0" y1="12" x2="20" y2="12" stroke="rgba(232,227,213,0.4)" stroke-width="1"/>
-          </g>
-          <!-- D-pad -->
-          <g transform="translate(40, 165)">
-            <rect x="-4" y="-12" width="14" height="28" rx="2" fill="#0a0612" opacity="0.75"/>
-            <rect x="-12" y="-4" width="30" height="14" rx="2" fill="#0a0612" opacity="0.75"/>
-            <circle cx="3" cy="2" r="3" fill="rgba(232,227,213,0.3)"/>
-          </g>
-          <!-- A B buttons -->
-          <g transform="translate(110, 165)">
-            <circle cx="20" cy="0" r="9" fill="#b07cff" stroke="#4a1f9c" stroke-width="0.5"/>
-            <text x="20" y="3" font-family="Press Start 2P" font-size="7" fill="#0c0b10" text-anchor="middle">A</text>
-            <circle cx="0" cy="10" r="9" fill="#b07cff" stroke="#4a1f9c" stroke-width="0.5"/>
-            <text x="0" y="13" font-family="Press Start 2P" font-size="7" fill="#0c0b10" text-anchor="middle">B</text>
-          </g>
-          <!-- start/select -->
-          <g transform="translate(55, 210)">
-            <rect x="0" y="0" width="22" height="6" rx="3" fill="#3a3445" transform="rotate(-22)"/>
-            <rect x="30" y="0" width="22" height="6" rx="3" fill="#3a3445" transform="rotate(-22)"/>
-            <text x="6" y="18" font-family="VT323" font-size="7" fill="rgba(232,227,213,0.5)" transform="rotate(-22)">SELECT</text>
-            <text x="40" y="18" font-family="VT323" font-size="7" fill="rgba(232,227,213,0.5)" transform="rotate(-22)">START</text>
-          </g>
-          <!-- nintendo-style logo (custom) -->
-          <text x="87" y="240" font-family="Press Start 2P" font-size="6" fill="rgba(232,227,213,0.6)" text-anchor="middle" letter-spacing="1">RetroVault</text>
-          <!-- USB-C port (modern upgrade indicator) -->
-          <g transform="translate(80, 254)">
-            <rect x="-8" y="0" width="16" height="3" rx="1.5" fill="#1a1822" stroke="rgba(176,124,255,0.5)" stroke-width="0.5"/>
-          </g>
-        </g>
-      </svg>
-    </div>
-  </div>
-</section>
+            <!-- Keyboard (back) -->
+            <g transform="translate(60, 200)" filter="url(#shadow)">
+              <!-- base -->
+              <path
+                d="M 0 50 L 380 50 L 400 80 L 400 150 L -20 150 L -20 80 Z"
+                fill="url(#kbBody)"
+                stroke="#2a2535"
+                stroke-width="1"
+              />
+              <!-- top plate -->
+              <rect
+                x="10"
+                y="40"
+                width="380"
+                height="50"
+                rx="3"
+                fill="url(#kbTop)"
+                stroke="#3a3445"
+                stroke-width="0.5"
+              />
+              <!-- keys row -->
+              <g>
+                <!-- generate 15 keys -->
+                <rect
+                  x="20"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="46"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="72"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="98"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="124"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyPurple)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="150"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="176"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="202"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="228"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="254"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyPurple)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="280"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="306"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="332"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="358"
+                  y="48"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+              </g>
+              <!-- row 2 (peeking) -->
+              <g opacity="0.95">
+                <rect
+                  x="30"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="56"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="82"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="108"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="134"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="160"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyPurple)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="186"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="212"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="238"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="264"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="290"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="316"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+                <rect
+                  x="342"
+                  y="22"
+                  width="22"
+                  height="22"
+                  rx="3"
+                  fill="url(#keyCap)"
+                  stroke="#0c0b10"
+                  stroke-width="0.4"
+                />
+              </g>
+              <!-- legend strip -->
+              <rect
+                x="30"
+                y="100"
+                width="340"
+                height="3"
+                rx="1"
+                fill="#3a3445"
+              />
+              <circle cx="380" cy="68" r="3" fill="#7b3fe4" opacity="0.8" />
+            </g>
 
-<!-- ────────────── Benefits ────────────── -->
-<section id="restauracion" class="container">
-  <div class="section-head">
-    <div class="left">
-      <div class="label">[ 01 — Por qué RetroVault ]</div>
-      <h2>Tres principios.<br/>Cero atajos.</h2>
-    </div>
-    <div class="right">
-      Cada unidad pasa por el mismo proceso en el mismo banco. Lo que entra como una consola olvidada sale como una pieza para usar todos los días — modernizada donde importa, intacta donde cuenta.
-    </div>
-  </div>
-
-  <div class="benefits">
-    <div class="benefit">
-      <div class="nm">01 / Taller
-        <span class="ico">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+            <!-- GameBoy Color (transparent) - front -->
+            <g transform="translate(290, 50) rotate(-6)" filter="url(#shadow)">
+              <!-- body -->
+              <path
+                d="M 10 0 L 150 0 Q 165 0 165 15 L 165 240 Q 165 260 145 260 L 25 260 Q 10 260 10 245 L 10 15 Q 10 0 25 0 Z"
+                fill="url(#gbcShell)"
+                stroke="rgba(176,124,255,0.7)"
+                stroke-width="1.5"
+              />
+              <!-- inner board outline (visible through shell) -->
+              <rect
+                x="22"
+                y="14"
+                width="130"
+                height="232"
+                rx="6"
+                fill="rgba(20,15,40,0.4)"
+                stroke="rgba(176,124,255,0.3)"
+                stroke-width="0.5"
+              />
+              <!-- screen bezel -->
+              <rect
+                x="30"
+                y="22"
+                width="115"
+                height="100"
+                rx="4"
+                fill="#0a0612"
+                stroke="rgba(176,124,255,0.4)"
+                stroke-width="1"
+              />
+              <!-- screen -->
+              <rect
+                x="44"
+                y="32"
+                width="86"
+                height="80"
+                fill="url(#gbcScreen)"
+              />
+              <!-- screen pixels -->
+              <g opacity="0.85">
+                <rect x="50" y="40" width="3" height="3" fill="#9ad9b0" />
+                <rect x="56" y="40" width="3" height="3" fill="#9ad9b0" />
+                <rect x="62" y="40" width="3" height="3" fill="#9ad9b0" />
+                <rect x="68" y="40" width="3" height="3" fill="#7cb898" />
+                <rect x="74" y="40" width="3" height="3" fill="#9ad9b0" />
+                <rect x="50" y="46" width="3" height="3" fill="#7cb898" />
+                <rect x="56" y="46" width="3" height="3" fill="#9ad9b0" />
+                <rect x="62" y="46" width="3" height="3" fill="#9ad9b0" />
+                <rect x="74" y="52" width="3" height="3" fill="#9ad9b0" />
+                <rect x="80" y="52" width="3" height="3" fill="#9ad9b0" />
+                <rect x="86" y="52" width="3" height="3" fill="#9ad9b0" />
+                <text
+                  x="87"
+                  y="80"
+                  font-family="VT323"
+                  font-size="11"
+                  fill="#9ad9b0"
+                  text-anchor="middle"
+                >
+                  RV-014
+                </text>
+                <text
+                  x="87"
+                  y="92"
+                  font-family="VT323"
+                  font-size="9"
+                  fill="#7cb898"
+                  text-anchor="middle"
+                >
+                  READY
+                </text>
+                <rect x="80" y="98" width="6" height="2" fill="#9ad9b0">
+                  <animate
+                    attributeName="opacity"
+                    values="1;0;1"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  />
+                </rect>
+              </g>
+              <!-- screen reflection -->
+              <rect
+                x="44"
+                y="32"
+                width="86"
+                height="40"
+                fill="url(#screenGlow)"
+              />
+              <!-- power LED -->
+              <circle cx="38" cy="76" r="2" fill="#ff7c7c" opacity="0.9" />
+              <text
+                x="38"
+                y="60"
+                font-family="VT323"
+                font-size="7"
+                fill="rgba(232,227,213,0.5)"
+                text-anchor="middle"
+              >
+                PWR
+              </text>
+              <!-- speaker grille -->
+              <g transform="translate(110, 220) rotate(-30)">
+                <line
+                  x1="0"
+                  y1="0"
+                  x2="20"
+                  y2="0"
+                  stroke="rgba(232,227,213,0.4)"
+                  stroke-width="1"
+                />
+                <line
+                  x1="0"
+                  y1="4"
+                  x2="20"
+                  y2="4"
+                  stroke="rgba(232,227,213,0.4)"
+                  stroke-width="1"
+                />
+                <line
+                  x1="0"
+                  y1="8"
+                  x2="20"
+                  y2="8"
+                  stroke="rgba(232,227,213,0.4)"
+                  stroke-width="1"
+                />
+                <line
+                  x1="0"
+                  y1="12"
+                  x2="20"
+                  y2="12"
+                  stroke="rgba(232,227,213,0.4)"
+                  stroke-width="1"
+                />
+              </g>
+              <!-- D-pad -->
+              <g transform="translate(40, 165)">
+                <rect
+                  x="-4"
+                  y="-12"
+                  width="14"
+                  height="28"
+                  rx="2"
+                  fill="#0a0612"
+                  opacity="0.75"
+                />
+                <rect
+                  x="-12"
+                  y="-4"
+                  width="30"
+                  height="14"
+                  rx="2"
+                  fill="#0a0612"
+                  opacity="0.75"
+                />
+                <circle cx="3" cy="2" r="3" fill="rgba(232,227,213,0.3)" />
+              </g>
+              <!-- A B buttons -->
+              <g transform="translate(110, 165)">
+                <circle
+                  cx="20"
+                  cy="0"
+                  r="9"
+                  fill="#b07cff"
+                  stroke="#4a1f9c"
+                  stroke-width="0.5"
+                />
+                <text
+                  x="20"
+                  y="3"
+                  font-family="Press Start 2P"
+                  font-size="7"
+                  fill="#0c0b10"
+                  text-anchor="middle"
+                >
+                  A
+                </text>
+                <circle
+                  cx="0"
+                  cy="10"
+                  r="9"
+                  fill="#b07cff"
+                  stroke="#4a1f9c"
+                  stroke-width="0.5"
+                />
+                <text
+                  x="0"
+                  y="13"
+                  font-family="Press Start 2P"
+                  font-size="7"
+                  fill="#0c0b10"
+                  text-anchor="middle"
+                >
+                  B
+                </text>
+              </g>
+              <!-- start/select -->
+              <g transform="translate(55, 210)">
+                <rect
+                  x="0"
+                  y="0"
+                  width="22"
+                  height="6"
+                  rx="3"
+                  fill="#3a3445"
+                  transform="rotate(-22)"
+                />
+                <rect
+                  x="30"
+                  y="0"
+                  width="22"
+                  height="6"
+                  rx="3"
+                  fill="#3a3445"
+                  transform="rotate(-22)"
+                />
+                <text
+                  x="6"
+                  y="18"
+                  font-family="VT323"
+                  font-size="7"
+                  fill="rgba(232,227,213,0.5)"
+                  transform="rotate(-22)"
+                >
+                  SELECT
+                </text>
+                <text
+                  x="40"
+                  y="18"
+                  font-family="VT323"
+                  font-size="7"
+                  fill="rgba(232,227,213,0.5)"
+                  transform="rotate(-22)"
+                >
+                  START
+                </text>
+              </g>
+              <!-- nintendo-style logo (custom) -->
+              <text
+                x="87"
+                y="240"
+                font-family="Press Start 2P"
+                font-size="6"
+                fill="rgba(232,227,213,0.6)"
+                text-anchor="middle"
+                letter-spacing="1"
+              >
+                RetroVault
+              </text>
+              <!-- USB-C port (modern upgrade indicator) -->
+              <g transform="translate(80, 254)">
+                <rect
+                  x="-8"
+                  y="0"
+                  width="16"
+                  height="3"
+                  rx="1.5"
+                  fill="#1a1822"
+                  stroke="rgba(176,124,255,0.5)"
+                  stroke-width="0.5"
+                />
+              </g>
+            </g>
           </svg>
-        </span>
+        </div>
       </div>
-      <h3>Restauración<br/>Experta</h3>
-      <p>Recapacitado completo, limpieza ultrasónica del PCB, recalibración de osciladores e inspección bajo aumento de 10×. Cada unidad sale con su bitácora firmada.</p>
-      <ul>
-        <li>Recap completo <span>· OK</span></li>
-        <li>Limpieza PCB <span>· OK</span></li>
-        <li>Inspección 10× <span>· OK</span></li>
-      </ul>
-    </div>
+    </section>
 
-    <div class="benefit">
-      <div class="nm">02 / Hardware
-        <span class="ico">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="4" y="4" width="16" height="16" rx="2"/>
-            <rect x="9" y="9" width="6" height="6"/>
-            <path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/>
-          </svg>
-        </span>
+    <!-- ────────────── Benefits ────────────── -->
+    <section id="restauracion" class="container">
+      <div class="section-head">
+        <div class="left">
+          <div class="label">[ 01 — Por qué RetroVault ]</div>
+          <h2>Tres principios.<br />Cero atajos.</h2>
+        </div>
+        <div class="right">
+          Cada unidad pasa por el mismo proceso en el mismo banco. Lo que entra
+          como una consola olvidada sale como una pieza para usar todos los días
+          — modernizada donde importa, intacta donde cuenta.
+        </div>
       </div>
-      <h3>Mejoras<br/>Modernas</h3>
-      <p>Pantallas IPS de alto contraste, carga USB-C, baterías de litio y zócalos hot-swap. Las piezas que tú agregarías — instaladas como deberían venir de fábrica.</p>
-      <ul>
-        <li>Pantalla IPS <span>· v3</span></li>
-        <li>Puerto USB-C <span>· PD</span></li>
-        <li>Hot-swap <span>· MX</span></li>
-      </ul>
-    </div>
 
-    <div class="benefit">
-      <div class="nm">03 / Edición
-        <span class="ico">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-          </svg>
-        </span>
+      <div class="benefits">
+        <div class="benefit">
+          <div class="nm">
+            01 / Taller
+            <span class="ico">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                />
+              </svg>
+            </span>
+          </div>
+          <h3>Restauración<br />Experta</h3>
+          <p>
+            Recapacitado completo, limpieza ultrasónica del PCB, recalibración
+            de osciladores e inspección bajo aumento de 10×. Cada unidad sale
+            con su bitácora firmada.
+          </p>
+          <ul>
+            <li>Recap completo <span>· OK</span></li>
+            <li>Limpieza PCB <span>· OK</span></li>
+            <li>Inspección 10× <span>· OK</span></li>
+          </ul>
+        </div>
+
+        <div class="benefit">
+          <div class="nm">
+            02 / Hardware
+            <span class="ico">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <rect x="9" y="9" width="6" height="6" />
+                <path
+                  d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"
+                />
+              </svg>
+            </span>
+          </div>
+          <h3>Mejoras<br />Modernas</h3>
+          <p>
+            Pantallas IPS de alto contraste, carga USB-C, baterías de litio y
+            zócalos hot-swap. Las piezas que tú agregarías — instaladas como
+            deberían venir de fábrica.
+          </p>
+          <ul>
+            <li>Pantalla IPS <span>· v3</span></li>
+            <li>Puerto USB-C <span>· PD</span></li>
+            <li>Hot-swap <span>· MX</span></li>
+          </ul>
+        </div>
+
+        <div class="benefit">
+          <div class="nm">
+            03 / Edición
+            <span class="ico">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+            </span>
+          </div>
+          <h3>Estética<br />Única</h3>
+          <p>
+            Carcasas translúcidas, placas anodizadas, keycaps de novedad.
+            Ediciones cortas, numeradas y firmadas. Nunca se reimprimen. Ninguna
+            pieza igual a otra.
+          </p>
+          <ul>
+            <li>Numerada <span>· #014</span></li>
+            <li>Firmada <span>· J.K.</span></li>
+            <li>Limitada <span>· 24/24</span></li>
+          </ul>
+        </div>
       </div>
-      <h3>Estética<br/>Única</h3>
-      <p>Carcasas translúcidas, placas anodizadas, keycaps de novedad. Ediciones cortas, numeradas y firmadas. Nunca se reimprimen. Ninguna pieza igual a otra.</p>
-      <ul>
-        <li>Numerada <span>· #014</span></li>
-        <li>Firmada <span>· J.K.</span></li>
-        <li>Limitada <span>· 24/24</span></li>
-      </ul>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ────────────── Catálogo / Cartridge rail ────────────── -->
-<section id="catalogo" class="container">
-  <div class="section-head">
-    <div class="left">
-      <div class="label">[ 02 — Ahora en la bóveda ]</div>
-      <h2>Edición 014</h2>
-    </div>
-    <div class="rail-controls">
-      <span>06 / 24 piezas</span>
-      <span class="rail-meta">desliza →</span>
-      <button class="rail-btn" id="rail-prev" aria-label="Anterior">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="15 18 9 12 15 6"/>
-        </svg>
-      </button>
-      <button class="rail-btn" id="rail-next" aria-label="Siguiente">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="9 18 15 12 9 6"/>
-        </svg>
-      </button>
-    </div>
-  </div>
-
-  <div class="rail-wrap">
-    <div class="rail" id="rail">
-
-      <!-- Card 1 - GBC Atomic Purple -->
-      <div class="cart-card">
-        <div class="imgwrap">
-          <span class="badge hot">● Nuevo</span>
-          <span class="num">#014</span>
-          <div class="imgwrap-inner">
-            <svg viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stop-color="rgba(176,124,255,0.7)"/>
-                  <stop offset="100%" stop-color="rgba(74,31,156,0.5)"/>
-                </linearGradient>
-              </defs>
-              <path d="M 8 4 L 92 4 Q 96 4 96 8 L 96 122 Q 96 126 92 126 L 8 126 Q 4 126 4 122 L 4 8 Q 4 4 8 4 Z" fill="url(#g1)" stroke="rgba(176,124,255,0.9)" stroke-width="0.8"/>
-              <rect x="14" y="14" width="72" height="56" rx="3" fill="#0a0612"/>
-              <rect x="22" y="22" width="56" height="40" fill="#1a3a2e"/>
-              <text x="50" y="48" font-family="VT323" font-size="9" fill="#9ad9b0" text-anchor="middle">RV-014</text>
-              <circle cx="22" cy="92" r="6" fill="#0a0612"/>
-              <circle cx="78" cy="92" r="4" fill="#b07cff"/>
-              <circle cx="68" cy="98" r="4" fill="#b07cff"/>
+    <!-- ────────────── Catálogo / Cartridge rail ────────────── -->
+    <section id="catalogo" class="container">
+      <div class="section-head">
+        <div class="left">
+          <div class="label">[ 02 — Ahora en la bóveda ]</div>
+          <h2>Edición 014</h2>
+        </div>
+        <div class="rail-controls">
+          <span>06 / 24 piezas</span>
+          <span class="rail-meta">desliza →</span>
+          <button class="rail-btn" id="rail-prev" aria-label="Anterior">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="15 18 9 12 15 6" />
             </svg>
-          </div>
-        </div>
-        <div class="info">
-          <div class="nm">GBC · Púrpura Atómico</div>
-          <div class="specs">IPS v3 · USB-C · Batería</div>
-          <div class="row">
-            <span class="price">$340</span>
-            <span class="add">Añadir →</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 2 - RV-65 Carbón -->
-      <div class="cart-card green">
-        <div class="imgwrap">
-          <span class="badge">Disponible</span>
-          <span class="num">#022</span>
-          <div class="imgwrap-inner">
-            <svg viewBox="0 0 130 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#26222e"/>
-                  <stop offset="100%" stop-color="#0a090e"/>
-                </linearGradient>
-              </defs>
-              <rect x="6" y="20" width="118" height="70" rx="4" fill="url(#g2)" stroke="#3a3445" stroke-width="0.5"/>
-              <g>
-                <rect x="14" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="26" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="38" y="28" width="10" height="10" rx="1.5" fill="#7cffb0"/>
-                <rect x="50" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="62" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="74" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="86" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="98" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="110" y="28" width="10" height="10" rx="1.5" fill="#7cffb0"/>
-                <rect x="14" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="26" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="38" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="50" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="62" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="74" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="86" y="40" width="10" height="10" rx="1.5" fill="#7cffb0"/>
-                <rect x="98" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="110" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="14" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="26" y="52" width="10" height="10" rx="1.5" fill="#7cffb0"/>
-                <rect x="38" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="50" y="52" width="22" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="74" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="86" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="98" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="110" y="52" width="10" height="10" rx="1.5" fill="#7cffb0"/>
-                <rect x="14" y="64" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="26" y="64" width="40" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="68" y="64" width="40" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="110" y="64" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="14" y="76" width="22" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="38" y="76" width="10" height="10" rx="1.5" fill="#7cffb0"/>
-                <rect x="50" y="76" width="50" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="102" y="76" width="18" height="10" rx="1.5" fill="#f5efdd"/>
-              </g>
+          </button>
+          <button class="rail-btn" id="rail-next" aria-label="Siguiente">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="9 18 15 12 9 6" />
             </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="rail-wrap">
+        <div class="rail" id="rail">
+          <!-- Card 1 - GBC Atomic Purple -->
+          <div class="cart-card">
+            <div class="imgwrap">
+              <span class="badge hot">● Nuevo</span>
+              <span class="num">#014</span>
+              <div class="imgwrap-inner">
+                <svg viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="rgba(176,124,255,0.7)" />
+                      <stop offset="100%" stop-color="rgba(74,31,156,0.5)" />
+                    </linearGradient>
+                  </defs>
+                  <path
+                    d="M 8 4 L 92 4 Q 96 4 96 8 L 96 122 Q 96 126 92 126 L 8 126 Q 4 126 4 122 L 4 8 Q 4 4 8 4 Z"
+                    fill="url(#g1)"
+                    stroke="rgba(176,124,255,0.9)"
+                    stroke-width="0.8"
+                  />
+                  <rect
+                    x="14"
+                    y="14"
+                    width="72"
+                    height="56"
+                    rx="3"
+                    fill="#0a0612"
+                  />
+                  <rect x="22" y="22" width="56" height="40" fill="#1a3a2e" />
+                  <text
+                    x="50"
+                    y="48"
+                    font-family="VT323"
+                    font-size="9"
+                    fill="#9ad9b0"
+                    text-anchor="middle"
+                  >
+                    RV-014
+                  </text>
+                  <circle cx="22" cy="92" r="6" fill="#0a0612" />
+                  <circle cx="78" cy="92" r="4" fill="#b07cff" />
+                  <circle cx="68" cy="98" r="4" fill="#b07cff" />
+                </svg>
+              </div>
+            </div>
+            <div class="info">
+              <div class="nm">GBC · Púrpura Atómico</div>
+              <div class="specs">IPS v3 · USB-C · Batería</div>
+              <div class="row">
+                <span class="price">$340</span>
+                <span class="add">Añadir →</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 - RV-65 Carbón -->
+          <div class="cart-card green">
+            <div class="imgwrap">
+              <span class="badge">Disponible</span>
+              <span class="num">#022</span>
+              <div class="imgwrap-inner">
+                <svg viewBox="0 0 130 100" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#26222e" />
+                      <stop offset="100%" stop-color="#0a090e" />
+                    </linearGradient>
+                  </defs>
+                  <rect
+                    x="6"
+                    y="20"
+                    width="118"
+                    height="70"
+                    rx="4"
+                    fill="url(#g2)"
+                    stroke="#3a3445"
+                    stroke-width="0.5"
+                  />
+                  <g>
+                    <rect
+                      x="14"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="26"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="38"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#7cffb0"
+                    />
+                    <rect
+                      x="50"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="62"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="74"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="86"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="98"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="110"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#7cffb0"
+                    />
+                    <rect
+                      x="14"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="26"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="38"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="50"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="62"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="74"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="86"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#7cffb0"
+                    />
+                    <rect
+                      x="98"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="110"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="14"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="26"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#7cffb0"
+                    />
+                    <rect
+                      x="38"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="50"
+                      y="52"
+                      width="22"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="74"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="86"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="98"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="110"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#7cffb0"
+                    />
+                    <rect
+                      x="14"
+                      y="64"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="26"
+                      y="64"
+                      width="40"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="68"
+                      y="64"
+                      width="40"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="110"
+                      y="64"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="14"
+                      y="76"
+                      width="22"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="38"
+                      y="76"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#7cffb0"
+                    />
+                    <rect
+                      x="50"
+                      y="76"
+                      width="50"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="102"
+                      y="76"
+                      width="18"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="info">
+              <div class="nm">RV-65 · Carbón</div>
+              <div class="specs">Topre 45g · Aluminio · MX</div>
+              <div class="row">
+                <span class="price">$520</span>
+                <span class="add">Añadir →</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 - GBA SP Perla -->
+          <div class="cart-card amber">
+            <div class="imgwrap">
+              <span class="badge">Disponible</span>
+              <span class="num">#007</span>
+              <div class="imgwrap-inner">
+                <svg viewBox="0 0 110 90" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#f0e8d0" />
+                      <stop offset="100%" stop-color="#c8bea0" />
+                    </linearGradient>
+                  </defs>
+                  <rect
+                    x="6"
+                    y="12"
+                    width="98"
+                    height="70"
+                    rx="6"
+                    fill="url(#g3)"
+                    stroke="#988e70"
+                    stroke-width="0.5"
+                  />
+                  <rect
+                    x="20"
+                    y="20"
+                    width="70"
+                    height="40"
+                    rx="2"
+                    fill="#0a0612"
+                  />
+                  <rect x="26" y="26" width="58" height="28" fill="#1a3a2e" />
+                  <text
+                    x="55"
+                    y="45"
+                    font-family="VT323"
+                    font-size="10"
+                    fill="#ffb450"
+                    text-anchor="middle"
+                  >
+                    GBA SP
+                  </text>
+                  <circle cx="14" cy="70" r="5" fill="#988e70" />
+                  <circle cx="96" cy="68" r="3" fill="#ffb450" />
+                  <circle cx="88" cy="72" r="3" fill="#ffb450" />
+                </svg>
+              </div>
+            </div>
+            <div class="info">
+              <div class="nm">GBA SP · Perla</div>
+              <div class="specs">IPS v3 · Latón · Recargable</div>
+              <div class="row">
+                <span class="price">$295</span>
+                <span class="add">Añadir →</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 - RV-Numpad Fantasma -->
+          <div class="cart-card pink">
+            <div class="imgwrap">
+              <span class="badge hot">● Nuevo</span>
+              <span class="num">#003</span>
+              <div class="imgwrap-inner">
+                <svg viewBox="0 0 80 100" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="rgba(255,200,230,0.6)" />
+                      <stop offset="100%" stop-color="rgba(176,124,255,0.4)" />
+                    </linearGradient>
+                  </defs>
+                  <rect
+                    x="6"
+                    y="6"
+                    width="68"
+                    height="88"
+                    rx="4"
+                    fill="url(#g4)"
+                    stroke="rgba(255,124,200,0.6)"
+                    stroke-width="0.6"
+                  />
+                  <g>
+                    <rect
+                      x="14"
+                      y="14"
+                      width="14"
+                      height="14"
+                      rx="2"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="32"
+                      y="14"
+                      width="14"
+                      height="14"
+                      rx="2"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="50"
+                      y="14"
+                      width="14"
+                      height="14"
+                      rx="2"
+                      fill="#ff7cc8"
+                    />
+                    <rect
+                      x="14"
+                      y="32"
+                      width="14"
+                      height="14"
+                      rx="2"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="32"
+                      y="32"
+                      width="14"
+                      height="14"
+                      rx="2"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="50"
+                      y="32"
+                      width="14"
+                      height="14"
+                      rx="2"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="14"
+                      y="50"
+                      width="14"
+                      height="14"
+                      rx="2"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="32"
+                      y="50"
+                      width="14"
+                      height="14"
+                      rx="2"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="50"
+                      y="50"
+                      width="14"
+                      height="32"
+                      rx="2"
+                      fill="#ff7cc8"
+                    />
+                    <rect
+                      x="14"
+                      y="68"
+                      width="32"
+                      height="14"
+                      rx="2"
+                      fill="#f5efdd"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="info">
+              <div class="nm">RV-Numpad · Fantasma</div>
+              <div class="specs">MX Silent · Translúcido</div>
+              <div class="row">
+                <span class="price">$180</span>
+                <span class="add">Añadir →</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 - NES Top-Loader -->
+          <div class="cart-card">
+            <div class="imgwrap">
+              <span class="badge sold">Agotado</span>
+              <span class="num">#011</span>
+              <div class="imgwrap-inner">
+                <svg viewBox="0 0 110 90" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="g5" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#3a3445" />
+                      <stop offset="100%" stop-color="#1a1822" />
+                    </linearGradient>
+                  </defs>
+                  <rect
+                    x="6"
+                    y="20"
+                    width="98"
+                    height="60"
+                    rx="3"
+                    fill="url(#g5)"
+                    stroke="#4a4458"
+                    stroke-width="0.5"
+                  />
+                  <rect
+                    x="20"
+                    y="10"
+                    width="70"
+                    height="14"
+                    rx="2"
+                    fill="#26222e"
+                    stroke="#4a4458"
+                    stroke-width="0.5"
+                  />
+                  <rect
+                    x="34"
+                    y="14"
+                    width="42"
+                    height="6"
+                    rx="1"
+                    fill="#0a0612"
+                  />
+                  <circle cx="14" cy="68" r="3" fill="#ff7c7c" />
+                  <rect
+                    x="22"
+                    y="64"
+                    width="20"
+                    height="8"
+                    rx="1"
+                    fill="#0a0612"
+                  />
+                  <rect
+                    x="46"
+                    y="64"
+                    width="20"
+                    height="8"
+                    rx="1"
+                    fill="#0a0612"
+                  />
+                  <text
+                    x="55"
+                    y="50"
+                    font-family="Press Start 2P"
+                    font-size="5"
+                    fill="rgba(232,227,213,0.5)"
+                    text-anchor="middle"
+                  >
+                    NES
+                  </text>
+                </svg>
+              </div>
+            </div>
+            <div class="info">
+              <div class="nm">NES Top-Loader</div>
+              <div class="specs">HDMI · Sin Región · 60Hz</div>
+              <div class="row">
+                <span class="price">$420</span>
+                <span class="add">Lista de espera</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 - RV-TKL Siena -->
+          <div class="cart-card amber">
+            <div class="imgwrap">
+              <span class="badge">Disponible</span>
+              <span class="num">#019</span>
+              <div class="imgwrap-inner">
+                <svg viewBox="0 0 130 100" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="g6" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#8c5a3a" />
+                      <stop offset="100%" stop-color="#4a2d1a" />
+                    </linearGradient>
+                  </defs>
+                  <rect
+                    x="6"
+                    y="20"
+                    width="118"
+                    height="70"
+                    rx="4"
+                    fill="url(#g6)"
+                    stroke="#3a2412"
+                    stroke-width="0.5"
+                  />
+                  <g>
+                    <rect
+                      x="14"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="26"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="38"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#ffb450"
+                    />
+                    <rect
+                      x="50"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="62"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="74"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="86"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="98"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="110"
+                      y="28"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="14"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="26"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="38"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="50"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#ffb450"
+                    />
+                    <rect
+                      x="62"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="74"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="86"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="98"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#ffb450"
+                    />
+                    <rect
+                      x="110"
+                      y="40"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="14"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#ffb450"
+                    />
+                    <rect
+                      x="26"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="38"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="50"
+                      y="52"
+                      width="22"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="74"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="86"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="98"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="110"
+                      y="52"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="14"
+                      y="64"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="26"
+                      y="64"
+                      width="40"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="68"
+                      y="64"
+                      width="40"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="110"
+                      y="64"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="14"
+                      y="76"
+                      width="22"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="38"
+                      y="76"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="50"
+                      y="76"
+                      width="50"
+                      height="10"
+                      rx="1.5"
+                      fill="#f5efdd"
+                    />
+                    <rect
+                      x="102"
+                      y="76"
+                      width="18"
+                      height="10"
+                      rx="1.5"
+                      fill="#ffb450"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="info">
+              <div class="nm">RV-TKL · Siena</div>
+              <div class="specs">Cherry MX · Nogal · TKL</div>
+              <div class="row">
+                <span class="price">$580</span>
+                <span class="add">Añadir →</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 7 - Game Gear -->
+          <div class="cart-card">
+            <div class="imgwrap">
+              <span class="badge">Disponible</span>
+              <span class="num">#008</span>
+              <div class="imgwrap-inner">
+                <svg viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="g7" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#1a1822" />
+                      <stop offset="100%" stop-color="#0a090e" />
+                    </linearGradient>
+                  </defs>
+                  <rect
+                    x="6"
+                    y="18"
+                    width="108"
+                    height="60"
+                    rx="6"
+                    fill="url(#g7)"
+                    stroke="#3a3445"
+                    stroke-width="0.5"
+                  />
+                  <rect
+                    x="34"
+                    y="26"
+                    width="52"
+                    height="44"
+                    rx="2"
+                    fill="#0a0612"
+                  />
+                  <rect x="40" y="32" width="40" height="32" fill="#1a3a2e" />
+                  <circle cx="18" cy="40" r="6" fill="#0a0612" />
+                  <circle cx="18" cy="58" r="3" fill="#26222e" />
+                  <circle cx="102" cy="40" r="3" fill="#b07cff" />
+                  <circle cx="96" cy="48" r="3" fill="#b07cff" />
+                  <text
+                    x="60"
+                    y="52"
+                    font-family="VT323"
+                    font-size="9"
+                    fill="#9ad9b0"
+                    text-anchor="middle"
+                  >
+                    GAME
+                  </text>
+                </svg>
+              </div>
+            </div>
+            <div class="info">
+              <div class="nm">Game Gear · Onyx</div>
+              <div class="specs">McWill LCD · USB-C · 8-bit</div>
+              <div class="row">
+                <span class="price">$385</span>
+                <span class="add">Añadir →</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 8 - RV-60 Hueso -->
+          <div class="cart-card amber">
+            <div class="imgwrap">
+              <span class="badge hot">● Últimas 2</span>
+              <span class="num">#027</span>
+              <div class="imgwrap-inner">
+                <svg viewBox="0 0 130 100" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="g8" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#f0e8d0" />
+                      <stop offset="100%" stop-color="#c8bea0" />
+                    </linearGradient>
+                  </defs>
+                  <rect
+                    x="6"
+                    y="22"
+                    width="118"
+                    height="64"
+                    rx="4"
+                    fill="url(#g8)"
+                    stroke="#988e70"
+                    stroke-width="0.5"
+                  />
+                  <g>
+                    <rect
+                      x="14"
+                      y="30"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="26"
+                      y="30"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="38"
+                      y="30"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#b07cff"
+                    />
+                    <rect
+                      x="50"
+                      y="30"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="62"
+                      y="30"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="74"
+                      y="30"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="86"
+                      y="30"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="98"
+                      y="30"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="110"
+                      y="30"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="14"
+                      y="42"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="26"
+                      y="42"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="38"
+                      y="42"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="50"
+                      y="42"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="62"
+                      y="42"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="74"
+                      y="42"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="86"
+                      y="42"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#b07cff"
+                    />
+                    <rect
+                      x="98"
+                      y="42"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="110"
+                      y="42"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="14"
+                      y="54"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="26"
+                      y="54"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="38"
+                      y="54"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="50"
+                      y="54"
+                      width="22"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="74"
+                      y="54"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="86"
+                      y="54"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="98"
+                      y="54"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="110"
+                      y="54"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="14"
+                      y="66"
+                      width="46"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="62"
+                      y="66"
+                      width="46"
+                      height="10"
+                      rx="1.5"
+                      fill="#26222e"
+                    />
+                    <rect
+                      x="110"
+                      y="66"
+                      width="10"
+                      height="10"
+                      rx="1.5"
+                      fill="#b07cff"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="info">
+              <div class="nm">RV-60 · Hueso</div>
+              <div class="specs">Holy Panda · GMK · USB-C</div>
+              <div class="row">
+                <span class="price">$640</span>
+                <span class="add">Añadir →</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="info">
-          <div class="nm">RV-65 · Carbón</div>
-          <div class="specs">Topre 45g · Aluminio · MX</div>
-          <div class="row">
-            <span class="price">$520</span>
-            <span class="add">Añadir →</span>
+      </div>
+    </section>
+
+    <!-- ────────────── Process strip ────────────── -->
+    <section class="process">
+      <div class="container">
+        <div class="section-head" style="padding-top: 0; margin-bottom: 36px">
+          <div class="left">
+            <div class="label">[ 03 — Cómo trabajamos ]</div>
+            <h2>Del polvo al pedestal,<br />en cuatro pasos.</h2>
+          </div>
+          <div class="right">
+            Mismo banco, mismo procedimiento, sin importar la pieza. Cada paso
+            queda registrado en la bitácora que viaja con tu unidad.
+          </div>
+        </div>
+        <div class="process-grid">
+          <div class="step">
+            <div class="num">01</div>
+            <h4>Recepción<br />& Diagnóstico</h4>
+            <p>
+              Cada pieza llega al banco, se desmonta y se fotografía.
+              Diagnóstico bajo microscopio de cada componente.
+            </p>
+          </div>
+          <div class="step">
+            <div class="num">02</div>
+            <h4>Recap<br />& Limpieza</h4>
+            <p>
+              Reemplazo total de capacitores. Limpieza ultrasónica del PCB.
+              Recalibración de osciladores y reguladores.
+            </p>
+          </div>
+          <div class="step">
+            <div class="num">03</div>
+            <h4>Mejoras<br />Modernas</h4>
+            <p>
+              IPS, USB-C, batería de litio, zócalos hot-swap. Solo lo que tiene
+              sentido sin romper la esencia.
+            </p>
+          </div>
+          <div class="step">
+            <div class="num">04</div>
+            <h4>Pulido<br />& Firma</h4>
+            <p>
+              Carcasa pulida o reemplazada. Pruebas de 48h. Número grabado,
+              bitácora firmada, empacada y enviada.
+            </p>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Card 3 - GBA SP Perla -->
-      <div class="cart-card amber">
-        <div class="imgwrap">
-          <span class="badge">Disponible</span>
-          <span class="num">#007</span>
-          <div class="imgwrap-inner">
-            <svg viewBox="0 0 110 90" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#f0e8d0"/>
-                  <stop offset="100%" stop-color="#c8bea0"/>
-                </linearGradient>
-              </defs>
-              <rect x="6" y="12" width="98" height="70" rx="6" fill="url(#g3)" stroke="#988e70" stroke-width="0.5"/>
-              <rect x="20" y="20" width="70" height="40" rx="2" fill="#0a0612"/>
-              <rect x="26" y="26" width="58" height="28" fill="#1a3a2e"/>
-              <text x="55" y="45" font-family="VT323" font-size="10" fill="#ffb450" text-anchor="middle">GBA SP</text>
-              <circle cx="14" cy="70" r="5" fill="#988e70"/>
-              <circle cx="96" cy="68" r="3" fill="#ffb450"/>
-              <circle cx="88" cy="72" r="3" fill="#ffb450"/>
-            </svg>
-          </div>
+    <!-- ────────────── Testimonios ────────────── -->
+    <section class="container" id="testimonios">
+      <div class="section-head">
+        <div class="left">
+          <div class="label">[ 04 — Lo que dicen ]</div>
+          <h2>Profesionales y<br />coleccionistas.</h2>
         </div>
-        <div class="info">
-          <div class="nm">GBA SP · Perla</div>
-          <div class="specs">IPS v3 · Latón · Recargable</div>
-          <div class="row">
-            <span class="price">$295</span>
-            <span class="add">Añadir →</span>
-          </div>
+        <div class="rail-controls">
+          <span>04 testimonios</span>
+          <span class="rail-meta">desliza →</span>
         </div>
       </div>
 
-      <!-- Card 4 - RV-Numpad Fantasma -->
-      <div class="cart-card pink">
-        <div class="imgwrap">
-          <span class="badge hot">● Nuevo</span>
-          <span class="num">#003</span>
-          <div class="imgwrap-inner">
-            <svg viewBox="0 0 80 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stop-color="rgba(255,200,230,0.6)"/>
-                  <stop offset="100%" stop-color="rgba(176,124,255,0.4)"/>
-                </linearGradient>
-              </defs>
-              <rect x="6" y="6" width="68" height="88" rx="4" fill="url(#g4)" stroke="rgba(255,124,200,0.6)" stroke-width="0.6"/>
-              <g>
-                <rect x="14" y="14" width="14" height="14" rx="2" fill="#f5efdd"/>
-                <rect x="32" y="14" width="14" height="14" rx="2" fill="#f5efdd"/>
-                <rect x="50" y="14" width="14" height="14" rx="2" fill="#ff7cc8"/>
-                <rect x="14" y="32" width="14" height="14" rx="2" fill="#f5efdd"/>
-                <rect x="32" y="32" width="14" height="14" rx="2" fill="#f5efdd"/>
-                <rect x="50" y="32" width="14" height="14" rx="2" fill="#f5efdd"/>
-                <rect x="14" y="50" width="14" height="14" rx="2" fill="#f5efdd"/>
-                <rect x="32" y="50" width="14" height="14" rx="2" fill="#f5efdd"/>
-                <rect x="50" y="50" width="14" height="32" rx="2" fill="#ff7cc8"/>
-                <rect x="14" y="68" width="32" height="14" rx="2" fill="#f5efdd"/>
-              </g>
-            </svg>
+      <div class="testi-rail">
+        <div class="testi">
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <div class="quote">
+            "El tacto es de otra época, en el mejor de los sentidos. Llevo
+            veinte años escribiendo a máquina y este es el primer teclado que me
+            sorprende cada mañana."
+          </div>
+          <div class="who">
+            <div class="av">MR</div>
+            <div class="info">
+              <div class="nm">Marta Reinhardt</div>
+              <div class="role">Tech Lead · Cuenca</div>
+            </div>
+            <div class="verified">✓ Verificado</div>
           </div>
         </div>
-        <div class="info">
-          <div class="nm">RV-Numpad · Fantasma</div>
-          <div class="specs">MX Silent · Translúcido</div>
-          <div class="row">
-            <span class="price">$180</span>
-            <span class="add">Añadir →</span>
-          </div>
-        </div>
-      </div>
 
-      <!-- Card 5 - NES Top-Loader -->
-      <div class="cart-card">
-        <div class="imgwrap">
-          <span class="badge sold">Agotado</span>
-          <span class="num">#011</span>
-          <div class="imgwrap-inner">
-            <svg viewBox="0 0 110 90" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g5" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#3a3445"/>
-                  <stop offset="100%" stop-color="#1a1822"/>
-                </linearGradient>
-              </defs>
-              <rect x="6" y="20" width="98" height="60" rx="3" fill="url(#g5)" stroke="#4a4458" stroke-width="0.5"/>
-              <rect x="20" y="10" width="70" height="14" rx="2" fill="#26222e" stroke="#4a4458" stroke-width="0.5"/>
-              <rect x="34" y="14" width="42" height="6" rx="1" fill="#0a0612"/>
-              <circle cx="14" cy="68" r="3" fill="#ff7c7c"/>
-              <rect x="22" y="64" width="20" height="8" rx="1" fill="#0a0612"/>
-              <rect x="46" y="64" width="20" height="8" rx="1" fill="#0a0612"/>
-              <text x="55" y="50" font-family="Press Start 2P" font-size="5" fill="rgba(232,227,213,0.5)" text-anchor="middle">NES</text>
-            </svg>
+        <div class="testi">
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <div class="quote">
+            "Es la GBC que siempre creí que tenía. La pantalla IPS hace que
+            Pokémon Crystal se sienta nuevo, y la firma del taller en la
+            bitácora es un detalle que se agradece."
+          </div>
+          <div class="who">
+            <div class="av">KT</div>
+            <div class="info">
+              <div class="nm">Kenji Tanaka</div>
+              <div class="role">Coleccionista · Guayaquil</div>
+            </div>
+            <div class="verified">✓ Verificado</div>
           </div>
         </div>
-        <div class="info">
-          <div class="nm">NES Top-Loader</div>
-          <div class="specs">HDMI · Sin Región · 60Hz</div>
-          <div class="row">
-            <span class="price">$420</span>
-            <span class="add">Lista de espera</span>
+
+        <div class="testi">
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <div class="quote">
+            "Restauración de nivel taller, sinceramente impresionado. Calidad de
+            construcción mejor que la original, y eso ya es decir mucho viniendo
+            del Japón de los 90."
+          </div>
+          <div class="who">
+            <div class="av">JC</div>
+            <div class="info">
+              <div class="nm">João Cardoso</div>
+              <div class="role">Ing. Firmware · Manta</div>
+            </div>
+            <div class="verified">✓ Verificado</div>
+          </div>
+        </div>
+
+        <div class="testi">
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <div class="quote">
+            "Numerada, firmada y en mi escritorio en nueve días. La mitad de mi
+            setup ahora viene de un solo taller — y no pienso comprar nada más a
+            nadie."
+          </div>
+          <div class="who">
+            <div class="av">SP</div>
+            <div class="info">
+              <div class="nm">Sofía Pérez</div>
+              <div class="role">Diseñadora · Quito</div>
+            </div>
+            <div class="verified">✓ Verificado</div>
+          </div>
+        </div>
+
+        <div class="testi">
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <div class="quote">
+            "Como ingeniero de hardware, lo que más me impresionó fue la
+            bitácora. Cada paso documentado, cada componente trazable. Es la
+            única tienda que entiende a sus clientes."
+          </div>
+          <div class="who">
+            <div class="av">AR</div>
+            <div class="info">
+              <div class="nm">Andrés Riquelme</div>
+              <div class="role">Ing. Hardware · Esmeraldas</div>
+            </div>
+            <div class="verified">✓ Verificado</div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Card 6 - RV-TKL Siena -->
-      <div class="cart-card amber">
-        <div class="imgwrap">
-          <span class="badge">Disponible</span>
-          <span class="num">#019</span>
-          <div class="imgwrap-inner">
-            <svg viewBox="0 0 130 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g6" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#8c5a3a"/>
-                  <stop offset="100%" stop-color="#4a2d1a"/>
-                </linearGradient>
-              </defs>
-              <rect x="6" y="20" width="118" height="70" rx="4" fill="url(#g6)" stroke="#3a2412" stroke-width="0.5"/>
-              <g>
-                <rect x="14" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="26" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="38" y="28" width="10" height="10" rx="1.5" fill="#ffb450"/>
-                <rect x="50" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="62" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="74" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="86" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="98" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="110" y="28" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="14" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="26" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="38" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="50" y="40" width="10" height="10" rx="1.5" fill="#ffb450"/>
-                <rect x="62" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="74" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="86" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="98" y="40" width="10" height="10" rx="1.5" fill="#ffb450"/>
-                <rect x="110" y="40" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="14" y="52" width="10" height="10" rx="1.5" fill="#ffb450"/>
-                <rect x="26" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="38" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="50" y="52" width="22" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="74" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="86" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="98" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="110" y="52" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="14" y="64" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="26" y="64" width="40" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="68" y="64" width="40" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="110" y="64" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="14" y="76" width="22" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="38" y="76" width="10" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="50" y="76" width="50" height="10" rx="1.5" fill="#f5efdd"/>
-                <rect x="102" y="76" width="18" height="10" rx="1.5" fill="#ffb450"/>
-              </g>
-            </svg>
+    <!-- ────────────── Footer ────────────── -->
+    <footer class="footer" id="contacto">
+      <div class="container footer-inner">
+        <div class="vault-cta">
+          <div class="label">[ Únete a la bóveda ]</div>
+          <h2>
+            Una pieza nueva.<br /><span class="accent">Un correo al mes.</span>
+          </h2>
+          <p>
+            Avisos de lanzamientos, notas del taller y acceso prioritario a
+            series cortas. Sin spam. Sin reventa.
+          </p>
+          <form
+            class="newsletter"
+            onsubmit="
+              event.preventDefault();
+              this.querySelector('button').textContent = '✓ Listo';
+            "
+          >
+            <input type="email" placeholder="tu.correo@dominio.com" required />
+            <button type="submit">Suscribirme →</button>
+          </form>
+          <div class="note">
+            Cancela cuando quieras · 2.4k coleccionistas suscritos
           </div>
         </div>
-        <div class="info">
-          <div class="nm">RV-TKL · Siena</div>
-          <div class="specs">Cherry MX · Nogal · TKL</div>
-          <div class="row">
-            <span class="price">$580</span>
-            <span class="add">Añadir →</span>
-          </div>
-        </div>
-      </div>
 
-      <!-- Card 7 - Game Gear -->
-      <div class="cart-card">
-        <div class="imgwrap">
-          <span class="badge">Disponible</span>
-          <span class="num">#008</span>
-          <div class="imgwrap-inner">
-            <svg viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g7" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#1a1822"/>
-                  <stop offset="100%" stop-color="#0a090e"/>
-                </linearGradient>
-              </defs>
-              <rect x="6" y="18" width="108" height="60" rx="6" fill="url(#g7)" stroke="#3a3445" stroke-width="0.5"/>
-              <rect x="34" y="26" width="52" height="44" rx="2" fill="#0a0612"/>
-              <rect x="40" y="32" width="40" height="32" fill="#1a3a2e"/>
-              <circle cx="18" cy="40" r="6" fill="#0a0612"/>
-              <circle cx="18" cy="58" r="3" fill="#26222e"/>
-              <circle cx="102" cy="40" r="3" fill="#b07cff"/>
-              <circle cx="96" cy="48" r="3" fill="#b07cff"/>
-              <text x="60" y="52" font-family="VT323" font-size="9" fill="#9ad9b0" text-anchor="middle">GAME</text>
-            </svg>
+        <div class="foot-grid">
+          <div class="brand">
+            <div class="logo" style="margin-bottom: 16px">
+              <span class="dot"></span>Retro<span class="v">Vault</span>
+            </div>
+            <p style="color: var(--ink-soft); margin: 0">
+              Taller independiente de restauración y construcción de hardware
+              retro. Cada pieza, una historia. Cada historia, una bitácora.
+            </p>
+            <div class="socials">
+              <a href="#" aria-label="Instagram">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="18" cy="6" r="1" fill="currentColor" />
+                </svg>
+              </a>
+              <a href="#" aria-label="YouTube">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                >
+                  <rect x="2" y="5" width="20" height="14" rx="3" />
+                  <polygon points="10 9 16 12 10 15" fill="currentColor" />
+                </svg>
+              </a>
+              <a href="#" aria-label="X">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                  />
+                </svg>
+              </a>
+              <a href="#" aria-label="Discord">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.182 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"
+                  />
+                </svg>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="info">
-          <div class="nm">Game Gear · Onyx</div>
-          <div class="specs">McWill LCD · USB-C · 8-bit</div>
-          <div class="row">
-            <span class="price">$385</span>
-            <span class="add">Añadir →</span>
-          </div>
-        </div>
-      </div>
 
-      <!-- Card 8 - RV-60 Hueso -->
-      <div class="cart-card amber">
-        <div class="imgwrap">
-          <span class="badge hot">● Últimas 2</span>
-          <span class="num">#027</span>
-          <div class="imgwrap-inner">
-            <svg viewBox="0 0 130 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g8" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#f0e8d0"/>
-                  <stop offset="100%" stop-color="#c8bea0"/>
-                </linearGradient>
-              </defs>
-              <rect x="6" y="22" width="118" height="64" rx="4" fill="url(#g8)" stroke="#988e70" stroke-width="0.5"/>
-              <g>
-                <rect x="14" y="30" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="26" y="30" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="38" y="30" width="10" height="10" rx="1.5" fill="#b07cff"/>
-                <rect x="50" y="30" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="62" y="30" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="74" y="30" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="86" y="30" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="98" y="30" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="110" y="30" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="14" y="42" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="26" y="42" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="38" y="42" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="50" y="42" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="62" y="42" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="74" y="42" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="86" y="42" width="10" height="10" rx="1.5" fill="#b07cff"/>
-                <rect x="98" y="42" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="110" y="42" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="14" y="54" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="26" y="54" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="38" y="54" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="50" y="54" width="22" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="74" y="54" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="86" y="54" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="98" y="54" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="110" y="54" width="10" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="14" y="66" width="46" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="62" y="66" width="46" height="10" rx="1.5" fill="#26222e"/>
-                <rect x="110" y="66" width="10" height="10" rx="1.5" fill="#b07cff"/>
-              </g>
-            </svg>
+          <div>
+            <h5>Tienda</h5>
+            <ul>
+              <li><a href="#">Consolas</a></li>
+              <li><a href="#">Teclados</a></li>
+              <li><a href="#">Accesorios</a></li>
+              <li><a href="#">Archivo</a></li>
+              <li><a href="#">Lista de espera</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h5>Taller</h5>
+            <ul>
+              <li><a href="#">Proceso</a></li>
+              <li><a href="#">Bitácora</a></li>
+              <li><a href="#">Garantía</a></li>
+              <li><a href="#">Encargos</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h5>Contacto rápido</h5>
+            <form
+              class="contact-form"
+              onsubmit="
+                event.preventDefault();
+                this.querySelector('button').textContent = '✓ Enviado';
+              "
+            >
+              <input type="text" placeholder="Tu nombre" required />
+              <input type="email" placeholder="Tu correo" required />
+              <textarea
+                placeholder="¿En qué podemos ayudarte?"
+                required
+              ></textarea>
+              <button type="submit">Enviar mensaje</button>
+            </form>
           </div>
         </div>
-        <div class="info">
-          <div class="nm">RV-60 · Hueso</div>
-          <div class="specs">Holy Panda · GMK · USB-C</div>
-          <div class="row">
-            <span class="price">$640</span>
-            <span class="add">Añadir →</span>
+
+        <div class="legal">
+          <div>© 2026 RetroVault · GYE</div>
+          <div class="links">
+            <a href="#">Privacidad</a>
+            <a href="#">Términos</a>
+            <a href="#">Envíos</a>
+            <a href="#">Devoluciones</a>
           </div>
         </div>
       </div>
+    </footer>
 
-    </div>
-  </div>
-</section>
-
-<!-- ────────────── Process strip ────────────── -->
-<section class="process">
-  <div class="container">
-    <div class="section-head" style="padding-top: 0; margin-bottom: 36px;">
-      <div class="left">
-        <div class="label">[ 03 — Cómo trabajamos ]</div>
-        <h2>Del polvo al pedestal,<br/>en cuatro pasos.</h2>
-      </div>
-      <div class="right">Mismo banco, mismo procedimiento, sin importar la pieza. Cada paso queda registrado en la bitácora que viaja con tu unidad.</div>
-    </div>
-    <div class="process-grid">
-      <div class="step">
-        <div class="num">01</div>
-        <h4>Recepción<br/>& Diagnóstico</h4>
-        <p>Cada pieza llega al banco, se desmonta y se fotografía. Diagnóstico bajo microscopio de cada componente.</p>
-      </div>
-      <div class="step">
-        <div class="num">02</div>
-        <h4>Recap<br/>& Limpieza</h4>
-        <p>Reemplazo total de capacitores. Limpieza ultrasónica del PCB. Recalibración de osciladores y reguladores.</p>
-      </div>
-      <div class="step">
-        <div class="num">03</div>
-        <h4>Mejoras<br/>Modernas</h4>
-        <p>IPS, USB-C, batería de litio, zócalos hot-swap. Solo lo que tiene sentido sin romper la esencia.</p>
-      </div>
-      <div class="step">
-        <div class="num">04</div>
-        <h4>Pulido<br/>& Firma</h4>
-        <p>Carcasa pulida o reemplazada. Pruebas de 48h. Número grabado, bitácora firmada, empacada y enviada.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ────────────── Testimonios ────────────── -->
-<section class="container" id="testimonios">
-  <div class="section-head">
-    <div class="left">
-      <div class="label">[ 04 — Lo que dicen ]</div>
-      <h2>Profesionales y<br/>coleccionistas.</h2>
-    </div>
-    <div class="rail-controls">
-      <span>04 testimonios</span>
-      <span class="rail-meta">desliza →</span>
-    </div>
-  </div>
-
-  <div class="testi-rail">
-    <div class="testi">
-      <div class="stars">★ ★ ★ ★ ★</div>
-      <div class="quote">"El tacto es de otra época, en el mejor de los sentidos. Llevo veinte años escribiendo a máquina y este es el primer teclado que me sorprende cada mañana."</div>
-      <div class="who">
-        <div class="av">MR</div>
-        <div class="info">
-          <div class="nm">Marta Reinhardt</div>
-          <div class="role">Tech Lead · Cuenca</div>
-        </div>
-        <div class="verified">✓ Verificado</div>
-      </div>
-    </div>
-
-    <div class="testi">
-      <div class="stars">★ ★ ★ ★ ★</div>
-      <div class="quote">"Es la GBC que siempre creí que tenía. La pantalla IPS hace que Pokémon Crystal se sienta nuevo, y la firma del taller en la bitácora es un detalle que se agradece."</div>
-      <div class="who">
-        <div class="av">KT</div>
-        <div class="info">
-          <div class="nm">Kenji Tanaka</div>
-          <div class="role">Coleccionista · Guayaquil</div>
-        </div>
-        <div class="verified">✓ Verificado</div>
-      </div>
-    </div>
-
-    <div class="testi">
-      <div class="stars">★ ★ ★ ★ ★</div>
-      <div class="quote">"Restauración de nivel taller, sinceramente impresionado. Calidad de construcción mejor que la original, y eso ya es decir mucho viniendo del Japón de los 90."</div>
-      <div class="who">
-        <div class="av">JC</div>
-        <div class="info">
-          <div class="nm">João Cardoso</div>
-          <div class="role">Ing. Firmware · Manta</div>
-        </div>
-        <div class="verified">✓ Verificado</div>
-      </div>
-    </div>
-
-    <div class="testi">
-      <div class="stars">★ ★ ★ ★ ★</div>
-      <div class="quote">"Numerada, firmada y en mi escritorio en nueve días. La mitad de mi setup ahora viene de un solo taller — y no pienso comprar nada más a nadie."</div>
-      <div class="who">
-        <div class="av">SP</div>
-        <div class="info">
-          <div class="nm">Sofía Pérez</div>
-          <div class="role">Diseñadora · Quito</div>
-        </div>
-        <div class="verified">✓ Verificado</div>
-      </div>
-    </div>
-
-    <div class="testi">
-      <div class="stars">★ ★ ★ ★ ★</div>
-      <div class="quote">"Como ingeniero de hardware, lo que más me impresionó fue la bitácora. Cada paso documentado, cada componente trazable. Es la única tienda que entiende a sus clientes."</div>
-      <div class="who">
-        <div class="av">AR</div>
-        <div class="info">
-          <div class="nm">Andrés Riquelme</div>
-          <div class="role">Ing. Hardware · Esmeraldas</div>
-        </div>
-        <div class="verified">✓ Verificado</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ────────────── Footer ────────────── -->
-<footer class="footer" id="contacto">
-  <div class="container footer-inner">
-
-    <div class="vault-cta">
-      <div class="label">[ Únete a la bóveda ]</div>
-      <h2>Una pieza nueva.<br/><span class="accent">Un correo al mes.</span></h2>
-      <p>Avisos de lanzamientos, notas del taller y acceso prioritario a series cortas. Sin spam. Sin reventa.</p>
-      <form class="newsletter" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ Listo';">
-        <input type="email" placeholder="tu.correo@dominio.com" required />
-        <button type="submit">Suscribirme →</button>
-      </form>
-      <div class="note">Cancela cuando quieras · 2.4k coleccionistas suscritos</div>
-    </div>
-
-    <div class="foot-grid">
-      <div class="brand">
-        <div class="logo" style="margin-bottom: 16px;"><span class="dot"></span>Retro<span class="v">Vault</span></div>
-        <p style="color: var(--ink-soft); margin: 0;">Taller independiente de restauración y construcción de hardware retro. Cada pieza, una historia. Cada historia, una bitácora.</p>
-        <div class="socials">
-          <a href="#" aria-label="Instagram">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r="1" fill="currentColor"/></svg>
-          </a>
-          <a href="#" aria-label="YouTube">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="5" width="20" height="14" rx="3"/><polygon points="10 9 16 12 10 15" fill="currentColor"/></svg>
-          </a>
-          <a href="#" aria-label="X">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </a>
-          <a href="#" aria-label="Discord">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.182 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
-          </a>
-        </div>
-      </div>
-
-      <div>
-        <h5>Tienda</h5>
-        <ul>
-          <li><a href="#">Consolas</a></li>
-          <li><a href="#">Teclados</a></li>
-          <li><a href="#">Accesorios</a></li>
-          <li><a href="#">Archivo</a></li>
-          <li><a href="#">Lista de espera</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h5>Taller</h5>
-        <ul>
-          <li><a href="#">Proceso</a></li>
-          <li><a href="#">Bitácora</a></li>
-          <li><a href="#">Garantía</a></li>
-          <li><a href="#">Encargos</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h5>Contacto rápido</h5>
-        <form class="contact-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ Enviado';">
-          <input type="text" placeholder="Tu nombre" required />
-          <input type="email" placeholder="Tu correo" required />
-          <textarea placeholder="¿En qué podemos ayudarte?" required></textarea>
-          <button type="submit">Enviar mensaje</button>
-        </form>
-      </div>
-    </div>
-
-    <div class="legal">
-      <div>© 2026 RetroVault · GYE</div>
-      <div class="links">
-        <a href="#">Privacidad</a>
-        <a href="#">Términos</a>
-        <a href="#">Envíos</a>
-        <a href="#">Devoluciones</a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script>
-  // Rail controls
-  const rail = document.getElementById('rail');
-  document.getElementById('rail-prev').addEventListener('click', () => rail.scrollBy({ left: -300, behavior: 'smooth' }));
-  document.getElementById('rail-next').addEventListener('click', () => rail.scrollBy({ left: 300, behavior: 'smooth' }));
-</script>
-
-</body>
+    <script>
+      // Rail controls
+      const rail = document.getElementById("rail");
+      document
+        .getElementById("rail-prev")
+        .addEventListener("click", () =>
+          rail.scrollBy({ left: -300, behavior: "smooth" }),
+        );
+      document
+        .getElementById("rail-next")
+        .addEventListener("click", () =>
+          rail.scrollBy({ left: 300, behavior: "smooth" }),
+        );
+    </script>
+  </body>
 </html>
